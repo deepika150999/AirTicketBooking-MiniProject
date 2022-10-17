@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+/*    background-image: url('../flightheader.jpg');
+*/}
+a:hover {
+    background-color: orangered;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* Style the header */
+header {
+    /*background-image: linear-gradient(to bottom right, palegreen, pink);
+    padding: 30px;*/
+    background-color:darkred;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Calligraphy';
+    color: white;
+}
+
+
+.show {
+   /* background-image: linear-gradient(to bottom right, pink, lightblue);
+*/}
+
+
+/* Create two columns/boxes that floats next to each other */
+navbar-brand {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+   color: white !important;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    /*background-image: linear-gradient(to bottom right, palegreen, pink);
+    padding: 10px;*/
+    background-color:darkred;
+
+    text-align: center;
+    color: white;
+}
+
